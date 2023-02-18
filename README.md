@@ -32,14 +32,15 @@
 ## 自分のリポジトリを作成
 1. GitHubにて右上の自分のアイコン> Your Repositoriesをクリック
 2. Newアイコンをクリック
-3. Repository name を適当につけて（例としてTestとする）create　repositoryをクリック
+3. Repository name を適当につけてcreate　repositoryをクリック（ここでは例としてTestとする）
 （作りたいアプリケーションっぽいネーミングがいいかな！）
-4. ターミナルで先ほどのディレクトリにて下記3コマンドを入力
+4. リポジトリから下記3つが乗っているコマンドを確認（XXXは自分のアカウント名、Test.gitが先ほど付けたripository nameになっているはず）
 ```
-git remote add origin https://github.com/takumi-13/test2.git
+git remote add origin https://github.com/XXXX/Test.git
 git branch -M main
 git push -u origin main
 ```
+4. ターミナルで先ほどのディレクトリにて下記3コマンドを入力
 5. リポジトリのSettings>CollaboratorsからAdd Peoplesをクリック
 6. 下記2アカウントを追加
 - takumi-13
