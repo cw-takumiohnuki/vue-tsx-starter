@@ -40,7 +40,7 @@ git remote add origin https://github.com/XXXX/Test.git
 git branch -M main
 git push -u origin main
 ```
-4. ターミナルで先ほどのディレクトリにて下記3コマンドを入力
+4. ターミナルで先ほどのディレクトリにて確認した3コマンドを順番に入力
 5. リポジトリのSettings>CollaboratorsからAdd Peoplesをクリック
 6. 下記2アカウントを追加
 - takumi-13
