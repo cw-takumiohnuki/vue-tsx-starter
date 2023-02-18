@@ -4,13 +4,20 @@ module.exports = {
     browser: true,
     jest: true,
     node: true,
+    es2021: true,
   },
   extends: ['plugin:prettier/recommended', 'prettier'],
+  parser: 'vue-eslint-parser',
   parserOptions: {
-    parser: 'typescript-eslint-parser',
-    sourceType: 'module',
-    ecmaVersion: 2020,
+    parser: {
+      '<template>': 'espree',
+      js: 'espree',
+      ts: '@typescript-eslint/parser',
+    },
+    project: ['./tsconfig.json'],
+    extraFileExtensions: ['.vue'],
     ecmaFeatures: { jsx: true },
+    sourceType: 'module',
   },
   rules: {
     complexity: ['error', 4],
