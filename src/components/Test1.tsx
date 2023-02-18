@@ -10,7 +10,7 @@ export default defineComponent({
   setup(props) {
     return () => (
       <div>
-        <h1> TEST1 </h1>
+        <div> TEST1 </div>
         <h1> {props.count} </h1>
         <button onClick={() => props.setCount(props.count + 1)}>add count</button>
       </div>
