@@ -5,7 +5,7 @@
 - https://code.visualstudio.com/download からダウンロード
 - この段階では、特にvscodeについてはセッティング不要（後で行う）
 2. nodeのインストール
-- https://nodejs.org/ja/　からLTSを取得
+- https://nodejs.org/ja/ からLTSを取得
 - この記事あたりが参考になるので参照にしながらセットアップ
   - https://qiita.com/sefoo0104/items/0653c935ea4a4db9dc2b
 - powershell起動して、`node --version`　と入力してバージョンが表示されていれば完了
