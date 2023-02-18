@@ -28,3 +28,19 @@
 1. ターミナルにて下記2コマンドを実行
 - `npx husky init`
 - `npx husky install` 
+
+## 自分のリポジトリを作成
+1. GitHubにて右上の自分のアイコン> Your Repositoriesをクリック
+2. Newアイコンをクリック
+3. Repository name を適当につけて（例としてTestとする）create　repositoryをクリック
+（作りたいアプリケーションっぽいネーミングがいいかな！）
+4. ターミナルで先ほどのディレクトリにて下記3コマンドを入力
+```
+git remote add origin https://github.com/takumi-13/test2.git
+git branch -M main
+git push -u origin main
+```
+5. リポジトリのSettings>CollaboratorsからAdd Peoplesをクリック
+6. 下記2アカウントを追加
+- takumi-13
+- cw-takumiohnuki
