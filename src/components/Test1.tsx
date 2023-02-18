@@ -10,9 +10,11 @@ export default defineComponent({
   setup(props) {
     return () => (
       <div>
-        <div> TEST1 </div>
+        <div class="text-5xl bg-red-500"> TEST1 </div>
         <h1> {props.count} </h1>
-        <button onClick={() => props.setCount(props.count + 1)}>add count</button>
+        <button class="mb-8 bg-orange-600" onClick={() => props.setCount(props.count + 1)}>
+          add count
+        </button>
       </div>
     );
   },
